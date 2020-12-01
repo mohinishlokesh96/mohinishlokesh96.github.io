@@ -16,28 +16,28 @@ function loop1(){
   if(j>2) j =0;
   document.getElementById('fw').innerHTML = framework[j]
   j++;
-  setTimeout(loop1,1500)
+  setTimeout(loop1,2000)
 }
 loop1()
 function loop2(){
   if(k>4) k =0;
   document.getElementById('fe').innerHTML = web[k]
   k++;
-  setTimeout(loop2,1500)
+  setTimeout(loop2,2000)
 }
 loop2()
 function loop3(){
   if(l>1) l =0;
   document.getElementById('oops').innerHTML = oop[l]
   l++;
-  setTimeout(loop3,1500)
+  setTimeout(loop3,2000)
 }
 loop3()
 function loop4(){
   if(m>1) m =0;
   document.getElementById('db').innerHTML = db[m]
   m++;
-  setTimeout(loop4,1500)
+  setTimeout(loop4,2000)
 }
 loop4()
 
